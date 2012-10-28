@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C9697D6163787A200D545A1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9697D5163787A200D545A1 /* FacebookSDK.framework */; };
+		1C9697DA1637881300D545A1 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C9697D91637881300D545A1 /* FacebookSDKResources.bundle */; };
+		1C9697DF1637894400D545A1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9697DB163788D800D545A1 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1C9697E01637894F00D545A1 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9697DD163788FB00D545A1 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1C9697E21637896F00D545A1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9697E11637896F00D545A1 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -546,6 +551,11 @@
 /* Begin PBXFileReference section */
 		1A52EDF415CB032B00A737D8 /* SHKKippt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKKippt.h; sourceTree = "<group>"; };
 		1A52EDF515CB032B00A737D8 /* SHKKippt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKKippt.m; sourceTree = "<group>"; };
+		1C9697D5163787A200D545A1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		1C9697D91637881300D545A1 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		1C9697DB163788D800D545A1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		1C9697DD163788FB00D545A1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1C9697E11637896F00D545A1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* ShareKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -876,6 +886,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C9697E21637896F00D545A1 /* Social.framework in Frameworks */,
+				1C9697E01637894F00D545A1 /* AdSupport.framework in Frameworks */,
+				1C9697DF1637894400D545A1 /* Accounts.framework in Frameworks */,
 				7A28825E15540175007DC379 /* libShareKit.a in Frameworks */,
 				7A2B025614A342D800E68A4C /* CFNetwork.framework in Frameworks */,
 				7A3C61EE147520B700C47D14 /* Twitter.framework in Frameworks */,
@@ -886,6 +899,7 @@
 				4312CF7C11CB33E200E61D7A /* MessageUI.framework in Frameworks */,
 				43EF406E11D3FFF800B1F700 /* Security.framework in Frameworks */,
 				43D1DEF011D5CDD200550D75 /* SystemConfiguration.framework in Frameworks */,
+				1C9697D6163787A200D545A1 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1229,6 +1243,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C9697E11637896F00D545A1 /* Social.framework */,
+				1C9697DD163788FB00D545A1 /* AdSupport.framework */,
+				1C9697DB163788D800D545A1 /* Accounts.framework */,
+				1C9697D91637881300D545A1 /* FacebookSDKResources.bundle */,
+				1C9697D5163787A200D545A1 /* FacebookSDK.framework */,
 				7A2B025514A342D800E68A4C /* CFNetwork.framework */,
 				7A3C61ED147520B700C47D14 /* Twitter.framework */,
 				C0D3077A147BDC8100E74EA3 /* CoreLocation.framework */,
@@ -3126,6 +3145,7 @@
 				43A5382811DBE480004A1712 /* example.pdf in Resources */,
 				43A5382911DBE480004A1712 /* sanFran.jpg in Resources */,
 				43C91D1D11EB963600F31FAE /* MainWindow-iPad.xib in Resources */,
+				1C9697DA1637881300D545A1 /* FacebookSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3673,6 +3693,10 @@
 					arm6,
 				);
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3683,6 +3707,7 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
+					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = ShareKitDemo;
 				SDKROOT = iphoneos;
@@ -3700,6 +3725,10 @@
 					arm6,
 				);
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ShareKit_Prefix.pch;
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
@@ -3708,6 +3737,7 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
+					"-lsqlite3.0",
 				);
 				PRODUCT_NAME = ShareKitDemo;
 				SDKROOT = iphoneos;
@@ -4387,6 +4417,10 @@
 				);
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/ShareKitLibrary.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -4420,6 +4454,10 @@
 				);
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/ShareKitLibrary.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
